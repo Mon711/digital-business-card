@@ -11,8 +11,14 @@ export default function Info(){
                     <a href="https://mon711.github.io/aboutMe/" className="card-link">mon711.aboutme</a>
 
                     <div className="card-buttons">
-                        <button className="btn email">📧 Email</button>
-                        <button className="btn linkedin">LinkedIn</button>
+                        <button className="btn email">
+                            <i class="bi bi-envelope-at-fill"></i>
+                            <span className="btn-text">Email</span>
+                        </button>
+                        <button className="btn linkedin">
+                            <i className="bi bi-linkedin"></i>
+                            <span className="btn-text">LinkedIn</span>
+                        </button>
                     </div>
                 </div>
                 
