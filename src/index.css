@@ -41,21 +41,22 @@ body {
 }
 
 .card-name {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 700;
+    margin-bottom: 0.2rem;
 }
 
 .card-title {
     color: #f3bf99;
-    font-size: 0.9rem;
-    margin-top: 0.3rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
 }
 
 .card-link {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.93rem;
     color: #f5f5f5;
-    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Buttons */
@@ -63,13 +64,23 @@ body {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
-    gap: 1.8rem;
+    gap: 2.8rem;
 }
 
 .btn {
     border: none;
     border-radius: 6px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.8rem;
     font-size: 0.9rem;
     cursor: pointer;
+}
+
+.email {
+  background-color: #fff;
+  color: #374151;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  color: white;
 }
