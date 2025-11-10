@@ -1,5 +1,6 @@
 import About from "./About";
 import Interest from "./Interest";
+import Footer from "./Footer";
 
 export default function Info() {
   return (
@@ -20,11 +21,11 @@ export default function Info() {
 
           <div className="card-buttons">
             <button className="btn email">
-              <i class="bi bi-envelope-at-fill"></i>
+              <i class="bi bi-envelope-at-fill btn-icon"></i>
               <span className="btn-text">Email</span>
             </button>
             <button className="btn linkedin">
-              <i className="bi bi-linkedin"></i>
+              <i className="bi bi-linkedin btn-icon"></i>
               <span className="btn-text">LinkedIn</span>
             </button>
           </div>
@@ -38,6 +39,9 @@ export default function Info() {
           </div>
 
         </div>
+
+          <Footer />
+          
       </div>
     </>
   );
