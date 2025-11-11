@@ -10,7 +10,7 @@ export default function Footer() {
                 <i className="bi bi-twitter-x footer-icon"></i>
             </a>
             <a 
-                href="https://discord.com/users/yourusername"
+                href="https://discord.com/users/764166671073935360"
                 target="_blank"
                 rel="noopener noreferrer"
             >
