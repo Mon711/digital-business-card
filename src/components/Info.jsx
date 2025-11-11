@@ -15,7 +15,12 @@ export default function Info() {
         <div className="card-body">
           <h2 className="card-name">Mrinal Sood</h2>
           <p className="card-title">Budding Web Devleoper</p>
-          <a href="https://mon711.github.io/aboutMe/" className="card-link" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://mon711.github.io/aboutMe/"
+            className="card-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             mon711.aboutme
           </a>
 
@@ -26,7 +31,11 @@ export default function Info() {
                 <span className="btn-text">Email</span>
               </button>
             </a>
-            <a href="https://www.linkedin.com/in/mrinal-sood-879889257/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/mrinal-sood-879889257/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="btn linkedin">
                 <i className="bi bi-linkedin btn-icon"></i>
                 <span className="btn-text">LinkedIn</span>
@@ -41,11 +50,9 @@ export default function Info() {
           <div className="card-section">
             <Interest />
           </div>
-
         </div>
 
-          <Footer />
-          
+        <Footer />
       </div>
     </>
   );

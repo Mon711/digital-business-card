@@ -138,17 +138,21 @@ body {
 }
 
 .bi-twitter-x:hover {
-    color: #1DA1F2; /* Twitter blue */
+    color: #1DA1F2;
+    /* Twitter blue */
 }
 
 .bi-discord:hover {
-    color: #5865F2; /* Discord blurple */
+    color: #5865F2;
+    /* Discord blurple */
 }
 
 .bi-instagram:hover {
-    color: #E1306C; /* Instagram pink */
+    color: #E1306C;
+    /* Instagram pink */
 }
 
 .bi-github:hover {
-    color: #ffffff; /* GitHub white */
+    color: #ffffff;
+    /* GitHub white */
 }

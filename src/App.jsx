@@ -1,9 +1,9 @@
-import Info from "./components/Info"
+import Info from "./components/Info";
 
-export default function App(){
+export default function App() {
   return (
     <>
       <Info />
     </>
-  )
+  );
 }
